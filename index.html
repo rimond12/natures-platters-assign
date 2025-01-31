@@ -41,42 +41,112 @@
 </head>
 
 <body class="sora-font">
-    <header>
-        <!-- Navbar Section -->
-        <div class=" flex justify-between px-4 lg:pt-5 md:pt-5 border-2 border-[#179800] md:w-11/12 md:border-0  mx-auto ">
-            <div class="">
-               
-                <a class="w-36 h-14 hidden md:block"><img src="images/logo-header.png" alt=""></a>
-                <a class="w-36 h-14 md:hidden"><img src="images/Group.png" alt=""></a>
-            </div>
-            <div class="justify-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Product</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Contact us</a></li>
-                </ul>
-            </div>
-            <div class=" flex  items-center invisible md:visible  gap-5">
-                <a class="w-6"><img src="images/loupe.png" alt=""></a>
-                <a class="w-6"><img src="images/shopping-cart (1).png" alt=""></a>
-                <a class="btn bg-white text-black border-[#179800]">Login</a>
-                <a class="btn bg-[#179800] text-white">Register</a>
-            </div>
-            <div class="lg:hidden dropdown text-[#179800]">
-                <div tabindex="0" role="button" class="btn btn-ghost ">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <!-- Navvar Section -->
+        <nav class="bg-base-100 bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3]">
+            <div class="bord">
+                <div
+                    class="navbar justify-between items-center border-2 border-[#179800] md:w-11/12 mx-auto  md:border-0 ">
+                    <div class="navbar-start gap-2">
+                        <img src="images/logo-header.png" alt="">
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 font-medium">
+                            <li><a>Product</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end invisible md:visible lg:visible gap-2">
+                        <a class="w-6"><img src="images/loupe.png" alt=""></a>
+                        <a class="w-6"><img src="images/shopping-cart (1).png" alt=""></a>
+                        <a class="btn bg-white text-black border-[#179800]">Login</a>
+                        <a class="btn bg-[#179800] text-white">Register</a>
+
+                    </div>
+                    <div class="dropdown text-[#179800]">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-                
             </div>
-        </div>
-        
+        </nav>
+        <!-- Hero Section -->
+        <section class="grid justify-center text-center mt-10 lg:mt-20 md:w-11/12 mx-auto">
+            <div>
+                <h2 class="font-semibold text-6xl	">
+                    Freshness <span class="text-[#179800]">
+                        You Can <br>
+                        Count
+                    </span> On, Prices You’ll Love!
+                </h2>
+                <p class="text-[#111111] my-4">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve
+                    got you covered every day!
+                </p>
+            </div>
+            <div>
+                <img src="images/hero-vegetables.png" alt="">
+            </div>
+        </section>
     </header>
     <main>
-
+        <!-- Service Section -->
+        <section class="md:w-11/12 mx-auto mt-8">
+            <div >
+                <div class="max-w-[1280px] mx-auto pl-3 text-[#179800] md:pl-5 lg:pl-8 mb-5 ">
+                    <h2 class="">
+                        Services
+                    </h2>
+                </div>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                    <!-- Card 1 -->
+                    <div class="card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+                        <figure class=" pt-10">
+                            <div class="avatar w-28 h-28 rounded-full bg-white items-center px-3">
+                                <div class="w-20 h-20">
+                                  <img src="images/service.png " />
+                                </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+                        <figure class=" pt-10">
+                            <div class="avatar w-28 h-28 rounded-full bg-white items-center px-3">
+                                <div class="w-20 h-20">
+                                  <img src="images/delivery.png " />
+                                </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+                        <figure class=" pt-10">
+                            <div class="avatar w-28 h-28 rounded-full bg-white items-center px-3">
+                                <div class="w-20 h-20">
+                                  <img src="images/healthy.png " />
+                                </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
