@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's platters</title>
-
-    <!-- Tailwind css CDN -->
+    <link rel="shortcut icon" href="images/Group.png" type="image/x-icon">
 
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <script>
@@ -21,7 +20,7 @@
         }
     </script>
 
-    <!-- DaisyUI CDN -->
+    <!-- DaisyUI And Tailwind css CDN -->
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -79,7 +78,8 @@
         <!-- Hero Section -->
         <section class="grid justify-center text-center mt-10 lg:mt-20 md:w-11/12 mx-auto">
             <div>
-                <h2 class="font-semibold text-6xl animate-bounce animate-duration-500 animate-repeat-3 mt-10 md:mt-5	">
+                <!-- Here Animation of Hero Section Heading -->
+                <h2 class="font-semibold text-6xl animate-bounce animate-duration-500 animate-repeat-3 mt-10 md:mt-5">
                     Freshness <span class="text-[#179800]">
                         You Can <br>
                         Count
@@ -296,36 +296,40 @@
             </div>
         </section>
         <!-- Extra Section -->
-         <section class="md:w-11/12 mx-auto mt-20">
-            <h2 class=" mb-5 text-3xl font-bold text-[#179800]"> Our Categorie's</h2>
+        <section class="md:w-11/12 mx-auto mt-20">
+            <h2 class=" mb-5 text-3xl font-bold text-[#179800]"> Our Categories</h2>
             <!-- Card -->
             <div class="grid grid-cols-1 lg:grid-cols-4 justify-between gap-10 py-11">
                 <!-- CARD1 -->
-                 <div class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
+                <div
+                    class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
                     <img src="images/vegetable.png" alt="">
                     <p class="text-2xl font-bold mt-2"> vegetable Items</p>
                     <a class="btn bg-[#179800] text-white mt-4">Explore All</a>
-                 </div>
+                </div>
                 <!-- CARD2 -->
-                 <div class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
+                <div
+                    class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
                     <img src="images/rice.png" alt="">
                     <p class="text-2xl font-bold mt-2"> Rice Items</p>
                     <a class="btn bg-[#179800] text-white mt-4">Explore All</a>
-                 </div>
+                </div>
                 <!-- CARD3 -->
-                 <div class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
+                <div
+                    class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
                     <img src="images/milk-bottle.png" alt="">
                     <p class="text-2xl font-bold mt-2"> Milk Items</p>
                     <a class="btn bg-[#179800] text-white mt-4">Explore All</a>
-                 </div>
+                </div>
                 <!-- CARD4 -->
-                 <div class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
+                <div
+                    class=" shadow-xl rounded-3xl justify-items-center p-4 bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF]  py-16">
                     <img src="images/dates.png" alt="">
                     <p class="text-2xl font-bold mt-2"> Dry Food Items</p>
                     <a class="btn bg-[#179800] text-white mt-4">Explore All</a>
-                 </div>
+                </div>
             </div>
-         </section>
+        </section>
         <!-- Arrival And Offer Section -->
         <section>
             <div class="md:w-11/12 mx-auto mt-20">
@@ -367,8 +371,10 @@
                 </div>
             </div>
         </section>
-        <section class="md:w-11/12 mx-auto mt-20">
-            <div class="flex items-center justify-around rounded-3xl flex-col md:flex-row text-center md:text-start p-9 bg-[#EFEBE3] gap-4 md:gap-0 relative top-[350px]">
+        <!-- Grocery Section -->
+        <section class="md:w-11/12 mx-auto mt-20 px-5 md:px-0">
+            <div
+                class="flex items-center justify-around rounded-3xl flex-col md:flex-row text-center md:text-start p-9 bg-[#EFEBE3] gap-4 md:gap-0 relative top-[350px]">
                 <!-- image -->
                 <div>
                     <img src="images/vegetable-busket.png" alt="">
@@ -377,20 +383,22 @@
                 <div class="space-y-5">
                     <h2 class="text-4xl font-bold">Get Grocery News!</h2>
                     <p class="text-xl">Exclusive training tips, ticks, product deals and more.</p>
-                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" /><br>
-                    <a class="btn bg-[#179800] text-white">Register</a>
+                    <input type="text" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" /><br>
+                    <a class="btn bg-[#179800] text-white">Subscribe</a>
                 </div>
             </div>
         </section>
     </main>
     <!-- Footer Section -->
-    <footer class="footer bg-base-300 lg:justify-items-center lg:items-end text-base-content bg-[#179800] p-10 mx-auto mt-36 py-16 pt-80">
+    <footer
+        class="footer bg-base-300 lg:justify-items-center lg:items-end text-base-content bg-[#179800] p-10 mx-auto mt-36 py-16 pt-80">
         <div>
-            <img src="images/logo-footer.png" alt="" >
-            <p class="text-xl text-[#FFFFFFB3]">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+            <img src="images/logo-footer.png" alt="">
+            <p class="text-xl text-[#FFFFFFB3]">Discover a world of treats, toys, and <br> essentials handpicked for
+                your furry <br> friends</p>
         </div>
         <nav>
-            
+
             <a class="link link-hover text-[#EFEBE3] text-xl">Product</a>
             <a class="link link-hover text-[#EFEBE3] text-xl">Services</a>
             <a class="link link-hover text-[#EFEBE3] text-xl">Contact us</a>
@@ -422,7 +430,7 @@
                         </path>
                     </svg>
                 </a>
-                <a href="" class="text-[#EFEBE3]"><img src="images/linkedin-logo.png" alt="" ></a>
+                <a href="" class="text-[#EFEBE3]"><img src="images/linkedin-logo.png" alt=""></a>
             </div>
         </nav>
     </footer>
